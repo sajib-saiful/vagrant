@@ -35,7 +35,7 @@ sudo ufw --force enable
 # =============================================
 
 # Vagrant VM creation based on Vagrantfile 
-and provision-web.sh
+# and provision-web.sh
 # =============================================
 vagrant up
 
