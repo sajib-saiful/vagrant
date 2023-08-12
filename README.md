@@ -1,4 +1,4 @@
-# vagrant
+# vagrant for 1 VM Box
 Deploying VBox with provisioning file by using vagrant.
 
 # To create a vagrantfile in a custom location 
