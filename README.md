@@ -47,3 +47,7 @@ vagrant reload --provision
 # If you want to Destroy the vagrant
 # =====================================
 vagrant destroy
+
+# or, Download the "destroy_vagrant_and_vdi.sh" file and run it in the bash terminal
+# =====================================
+./destroy_vagrant_and_vdi.sh
