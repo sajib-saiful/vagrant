@@ -76,6 +76,7 @@ sudo ufw --force enable
 vagrant up
 
 ---------------------------------------
+---------------------------------------
 # Some extra command
 # Reload vagrant for any changes in provision file
 # =====================================
@@ -86,6 +87,8 @@ vagrant reload --provision
 # =====================================
 vagrant destroy -f
 
-# or, Download the "destroy_vagrant_and_vdi.sh" file and run it in the bash terminal
-# =====================================
-./destroy_vagrant_and_vdi.sh
+# We can do all the things by using 2 simple files 
+01. For initialize and Vagrant up run the "setup_and_vagrant_up.sh".
+02. For destroy or remove the vbox and vdi file run the "destroy_vagrant_and_vdi.sh"
+---------------------------------------
+---------------------------------------
