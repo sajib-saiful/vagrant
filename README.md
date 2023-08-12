@@ -34,17 +34,16 @@ sudo ufw allow 8088/tcp
 sudo ufw --force enable
 # =============================================
 
-# Vagrant VM creation based on Vagrantfile 
-# and provision-web.sh
+# Vagrant VM creation based on Vagrantfile and provision-web.sh
 # =============================================
 vagrant up
 
 
 # Reload vagrant for any changes in provision
-# ===============================================
+# =============================================
 vagrant reload --provision
 
 
 # If you want to Destroy the vagrant
-# ===============================================
+# =============================================
 vagrant destroy
