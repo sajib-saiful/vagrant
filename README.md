@@ -4,9 +4,10 @@ Deploying VBox with provisioning file by using vagrant.
 Our main target is to create an apache web server by using "provision-web.sh" and port forwarding host port 8090 to Guest (VM) 80 port.
 
 # Prerequisit 
-1. Install latest Vagrant
+1. OS Platform: Windows 10 64 bit
+2. Install latest Vagrant
    https://developer.hashicorp.com/vagrant/downloads
-2. Install latest Oracle VM VirtualBox
+3. Install latest Oracle VM VirtualBox
    https://www.virtualbox.org/wiki/Downloads
 
 
